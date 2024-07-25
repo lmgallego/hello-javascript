@@ -1,8 +1,15 @@
+/*
+Clase 3 en vídeo | 24/07/2024
+Condicionales, arrays y sets
+https://www.twitch.tv/videos/2206228701?t=00h16m02s
+*/
+
 // if, else if, else
 
 // if (si)
 
 let age = 37
+
 if (age == 37) {
     console.log("La edad es 37")
 }
@@ -25,16 +32,15 @@ if (age == 37) {
     console.log("La edad no es 37 ni es menor de edad")
 }
 
-// Operador ternario 
+// Operador ternario
 
-age == 37 ? "La edad es 37" : "La edad no es 37"
 const message = age == 37 ? "La edad es 37" : "La edad no es 37"
 console.log(message)
 
 // switch
 
-let day = 7
-let dayName 
+let day = 3
+let dayName
 
 switch (day) {
     case 0:
@@ -44,7 +50,7 @@ switch (day) {
         dayName = "Martes"
         break
     case 2:
-        dayName = "Miercoles"
+        dayName = "Miércoles"
         break
     case 3:
         dayName = "Jueves"
@@ -53,10 +59,11 @@ switch (day) {
         dayName = "Viernes"
         break
     case 5:
-        dayName = "Sabado"
+        dayName = "Sábado"
         break
     case 6:
         dayName = "Domingo"
+        break
     default:
         dayName = "Número de día incorrecto"
 }
