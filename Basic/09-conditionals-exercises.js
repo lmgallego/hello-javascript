@@ -58,6 +58,18 @@ console.log(mensaje)
 
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
 
+let mes = "Octubre"
+
+if (mes == "Enero" || mes == "Febrero" || mes == "Marzo") {
+    console.log("Es invierno")
+} else if (mes == "Abril" || mes == "Mayo" || mes == "Junio") {
+    console.log("Es primavera")
+} else if (mes == "Julio" || mes == "Agosto" || mes == "Septiembre") {
+    console.log("Es verano")
+} else {
+    console.log("Es otoño")
+}
+
 // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior
 
 // switch
